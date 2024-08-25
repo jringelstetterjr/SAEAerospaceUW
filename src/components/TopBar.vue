@@ -4,9 +4,10 @@
       <nav>
         <ul>
           <li>
-            <img src="../assets/logo.png" alt="UW-Madison SAE Club Logo" class="logo"/>
+            <router-link to="/"><img src="../assets/logo.jpeg" alt="UW-Madison SAE Club Logo" class="logo"/></router-link>
           </li>
           <li><router-link to="/">Home</router-link></li>
+          <li><router-link to="/about">About</router-link></li>
           <!-- Add more links as needed -->
         </ul>
       </nav>
@@ -20,17 +21,24 @@
   </script>
   
   <style scoped>
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
   .top-bar {
-    background-color: #c5050c; /* UW-Madison Cardinal Red */
-  padding: 1rem;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Distribute space between left and center */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  position: sticky;
-  top: 0;
-  z-index: 1000; /* Ensure it stays above other content */
+    background-color: #c5050c;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    top: 0;
+    z-index: 1000; 
+    width: 90%;
+    align-self: center;
 }
 
 nav ul {

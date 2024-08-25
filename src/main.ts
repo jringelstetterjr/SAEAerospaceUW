@@ -1,13 +1,13 @@
 import { createApp } from 'vue';
 import PrimeVue from 'primevue/config';
-import Aura from '@primevue/themes/aura';
 import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router';
-
 import Home from './views/Home.vue'
+import About from './views/About.vue'
 
 const routes = [
     { path: '/', component: Home },
+    { path: '/about', component: About },
 ];
 
 const router = createRouter({
@@ -17,9 +17,7 @@ const router = createRouter({
 
 const app = createApp(App);
 app.use(PrimeVue, {
-    theme: {
-        preset: Aura
-    }
+    unstyled: true
 });
 app.use(router);
 app.mount('#app');
