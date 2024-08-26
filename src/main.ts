@@ -4,6 +4,9 @@ import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './views/Home.vue'
 import About from './views/About.vue'
+import '@fontsource/orbitron'; // Defaults to weight 400
+import '@fontsource/orbitron/500.css'; // Weight 500
+import '@fontsource/orbitron/700.css'; // Weight 700
 
 const routes = [
     { path: '/', component: Home },

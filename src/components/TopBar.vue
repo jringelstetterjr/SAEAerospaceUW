@@ -34,11 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    top: 0;
-    z-index: 1000; 
-    width: 90%;
-    align-self: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); ; 
 }
 
 nav ul {
@@ -52,8 +48,8 @@ nav ul {
 
 nav ul li {
   display: inline-flex;
-  font-family: 'Merriweather', serif;
-  font-weight: lighter;
+  font-family: 'Orbitron', serif;
+  font-style: italic;
 }
 
 nav ul li a {
