@@ -2,7 +2,9 @@
 <template>
   <div id="app">
     <TopBar />
-    <router-view />
+    <main class="content">
+      <router-view />
+    </main>
     <Footer />
   </div>
 </template>
@@ -20,6 +22,5 @@ export default {
 }
 </script>
 
-<style>
-
+<style >
 </style>

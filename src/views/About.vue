@@ -4,6 +4,30 @@
         <p>
             At SAE (Society of Automotive Engineers International) Aero UW, we dedicate each year to designing, building and flying an advanced RC aircraft for the SAE Aero Design Competition. Our journey begins with research and securing funding, followed by meticulous design work to meet SAE requirements. As the year progresses, we transition to the build phase, where we fabricate and assemble the aircraft's components with precision. Rigorous testing ensures that our plane is ready for the competition. In April, we head to California to showcase our work against teams from around the world. This competition marks the culmination of our efforts, but it also sets the stage for continuous improvement and innovation as we prepare for the next year.
         </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>test</p>
     </div>
 </template>
 
@@ -16,8 +40,11 @@ export default {
 <style scoped>
 .about {
     padding: 2rem;
-    position: fixed;
     margin-top: 5rem;
+    overflow-y: auto;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 10rem;
 }
 p {
     font-family: 'saira', sans-serif;

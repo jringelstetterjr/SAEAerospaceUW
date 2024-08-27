@@ -30,6 +30,7 @@
     background-color: black;
     color: white;
     box-shadow: 0px 0px 6px rgb(0, 0, 0); 
+    flex-shrink: 0;
 }
 
 .footer-content {
