@@ -20,13 +20,13 @@ export default {
     margin-top: 5rem;
 }
 p {
-    font-family: 'Exo', sans-serif;
+    font-family: 'michroma', sans-serif;
     font-size: 1.6rem;
     line-height: 1.4;
     font-weight: 450;
 }
 h1 {
-    font-family: 'Exo', sans-serif;
+    font-family: 'michroma', sans-serif;
     font-weight: 600;
 }
 </style>

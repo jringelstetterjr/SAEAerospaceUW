@@ -57,11 +57,11 @@
 
 h3 {
     margin-bottom: 10px;
-    font-family: 'Exo', sans-serif;
+    font-family: 'michroma', sans-serif;
 }
 
 p {
     margin: 0;
-    font-family: 'Exo', sans-serif;
+    font-family: 'michroma', sans-serif;
 }
 </style>

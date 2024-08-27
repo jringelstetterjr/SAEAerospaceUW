@@ -49,7 +49,7 @@ nav ul {
 
 nav ul li {
   display: inline-flex;
-  font-family: 'Exo', serif;
+  font-family: 'michroma', serif;
   font-style: italic;
 }
 

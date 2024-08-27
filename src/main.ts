@@ -4,9 +4,7 @@ import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './views/Home.vue'
 import About from './views/About.vue'
-import '@fontsource/exo'; // Defaults to weight 400
-import '@fontsource/exo/500.css'; // Weight 500
-import '@fontsource/exo/700.css'; // Weight 700
+import '@fontsource/michroma'; // Defaults to weight 400
 
 const routes = [
     { path: '/', component: Home },
