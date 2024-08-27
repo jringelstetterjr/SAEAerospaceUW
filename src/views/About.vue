@@ -72,9 +72,4 @@ h2 {
 }
 </style>
   
-  <script>
-  export default {
-    name: 'About'
-  }
-  </script>
  
