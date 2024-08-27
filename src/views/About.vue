@@ -7,6 +7,51 @@
             Rigorous testing ensures that our plane is ready for the competition. In April, we head to California to showcase our work against teams from around 
             the world. This competition marks the culmination of our efforts, but it also sets the stage for continuous improvement and innovation as we prepare for the next year.
         </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>test</p>
     </div>
 </template>
   
@@ -19,6 +64,11 @@
   <style scoped>
   .about {
     padding: 2rem;
+    margin-top: 5rem;
+    overflow-y: auto;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 10rem;
   }
   </style>
   
