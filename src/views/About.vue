@@ -20,13 +20,13 @@ export default {
     margin-top: 5rem;
 }
 p {
-    font-family: 'quantico', sans-serif;
+    font-family: 'rajdhani', sans-serif;
     font-size: 1.6rem;
     line-height: 1.4;
     font-weight: 450;
 }
 h1 {
-    font-family: 'quantico', sans-serif;
+    font-family: 'rajdhani', sans-serif;
     font-weight: 600;
 }
 </style>

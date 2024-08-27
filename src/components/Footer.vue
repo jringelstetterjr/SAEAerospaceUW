@@ -57,11 +57,11 @@
 
 h3 {
     margin-bottom: 10px;
-    font-family: 'quantico', sans-serif;
+    font-family: 'rajdhani', sans-serif;
 }
 
 p {
     margin: 0;
-    font-family: 'quantico', sans-serif;
+    font-family: 'rajdhani', sans-serif;
 }
 </style>
