@@ -50,8 +50,9 @@ nav ul {
 
 nav ul li {
   display: inline-flex;
-  font-family: 'saira', serif;
+  font-family: 'rajdhani', serif;
   font-style: italic;
+  font-size: 1.4rem;
 }
 
 nav ul li a {

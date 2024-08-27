@@ -32,23 +32,23 @@ export default {
   padding: 2rem;
   margin-top: 5rem;
   overflow-y: auto;
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
   min-height: 100vh;
   box-sizing: border-box;
   flex: 1;
 }
 p {
-  font-family: 'saira', sans-serif;
+  font-family: 'rajdhani', sans-serif;
   font-size: 1.6rem;
   line-height: 1.4;
   font-weight: 450;
 }
 h1 {
-  font-family: 'saira', sans-serif;
+  font-family: 'rajdhani', sans-serif;
   font-weight: 600;
 }
 h2 {
-  font-family: 'saira', sans-serif;
+  font-family: 'rajdhani', sans-serif;
   font-weight: 600;
   margin-top: 2rem;
 }

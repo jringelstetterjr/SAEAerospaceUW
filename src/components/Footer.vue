@@ -21,12 +21,12 @@
   }
 </script>
 
-<style>
+<style scoped>
 .footer {
     bottom: 0;
     left: 0;
     position: static;
-    width: 100vw;
+    width: 100%;
     background-color: black;
     color: white;
     box-shadow: 0px 0px 6px rgb(0, 0, 0); 
@@ -58,11 +58,11 @@
 
 h3 {
     margin-bottom: 10px;
-    font-family: 'saira', sans-serif;
+    font-family: 'rajdhani', sans-serif;
 }
 
 p {
     margin: 0;
-    font-family: 'saira', sans-serif;
+    font-family: 'rajdhani', sans-serif;
 }
 </style>
