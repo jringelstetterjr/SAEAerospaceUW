@@ -36,6 +36,7 @@
     z-index: 1000; 
     width: 100%;
     align-self: center;
+    flex-shrink: 0;
 }
 
 nav ul {

@@ -23,4 +23,10 @@ export default {
 </script>
 
 <style >
+#app {
+    min-height: 100vh; 
+    margin: 0; 
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
 </style>

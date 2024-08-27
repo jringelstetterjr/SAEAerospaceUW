@@ -23,13 +23,14 @@
 
 <style>
 .footer {
-    position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    position: static;
+    width: 100vw;
     background-color: black;
     color: white;
     box-shadow: 0px 0px 6px rgb(0, 0, 0); 
+    height: auto;
 }
 
 .footer-content {
