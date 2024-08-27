@@ -16,6 +16,8 @@ export default {
 <style scoped>
 .about {
     padding: 2rem;
+    position: fixed;
+    margin-top: 5rem;
 }
 p {
     font-family: 'Orbitron', sans-serif;
