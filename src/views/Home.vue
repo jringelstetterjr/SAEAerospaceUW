@@ -12,9 +12,26 @@
   }
   </script>
   
-  <style scoped>
+  <style>
+  
   .home {
     padding: 2rem;
+    margin-top: 5rem;
+    overflow-y: auto;
+    margin-bottom: 0rem;
+    box-sizing: border-box;
+    flex: 1;
   }
+  h1 {
+    font-family: 'rajdhani', sans-serif;
+    font-weight: 600;
+  }
+  p {
+    font-family: 'rajdhani', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-weight: 450;
+  }
+
   </style>
   

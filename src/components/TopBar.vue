@@ -36,6 +36,7 @@
     z-index: 1000; 
     width: 100%;
     align-self: center;
+    flex-shrink: 0;
 }
 
 nav ul {
@@ -49,8 +50,9 @@ nav ul {
 
 nav ul li {
   display: inline-flex;
-  font-family: 'Merriweather', serif;
-  font-weight: lighter;
+  font-family: 'rajdhani', serif;
+  font-style: italic;
+  font-size: 1.4rem;
 }
 
 nav ul li a {
