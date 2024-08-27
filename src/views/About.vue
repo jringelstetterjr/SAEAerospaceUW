@@ -71,3 +71,10 @@ h2 {
   display: block;
 }
 </style>
+  
+  <script>
+  export default {
+    name: 'About'
+  }
+  </script>
+ 
