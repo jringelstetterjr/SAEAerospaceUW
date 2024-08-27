@@ -57,11 +57,11 @@
 
 h3 {
     margin-bottom: 10px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 
 p {
     margin: 0;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 </style>
