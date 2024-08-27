@@ -10,6 +10,10 @@
   },
   "dependencies": {
     "@fontsource/exo": "^5.0.19",
+    "@fontsource/michroma": "^5.0.21",
+    "@fontsource/quantico": "^5.0.20",
+    "@fontsource/rajdhani": "^5.0.14",
+    "@fontsource/saira": "^5.0.29",
     "@primevue/themes": "^4.0.5",
     "primeflex": "^3.3.1",
     "primeicons": "^7.0.0",
