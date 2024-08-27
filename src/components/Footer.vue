@@ -29,7 +29,7 @@
     width: 100%;
     background-color: black;
     color: white;
-    box-shadow: 0px 0px 6px rgb(255, 0, 0); 
+    box-shadow: 0px 0px 6px rgb(0, 0, 0); 
 }
 
 .footer-content {
@@ -57,11 +57,11 @@
 
 h3 {
     margin-bottom: 10px;
-    font-family: 'michroma', sans-serif;
+    font-family: 'quantico', sans-serif;
 }
 
 p {
     margin: 0;
-    font-family: 'michroma', sans-serif;
+    font-family: 'quantico', sans-serif;
 }
 </style>
