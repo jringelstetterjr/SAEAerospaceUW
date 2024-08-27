@@ -13,8 +13,12 @@
   </script>
   
   <style scoped>
+  
   .home {
     padding: 2rem;
+    position: fixed;
+    margin-top: 5rem;
   }
+
   </style>
   
