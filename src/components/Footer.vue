@@ -1,9 +1,9 @@
 <template>
-    <footer class="footer">
+    <div class="footer">
         <div class="footer-content">
             <div class="contact-us">
                 <h3>Contact Us</h3>
-                <p>Email: example@example.com</p>
+                <p>Email: acbrion@wisc.edu</p>
             </div>
             <div class="logos">
                 <!-- Add your logos here -->
@@ -12,7 +12,7 @@
                 <!-- Add your social links here -->
             </div>
         </div>
-    </footer>
+    </div>
 </template>
 
 <script>
@@ -23,14 +23,15 @@
 
 <style scoped>
 .footer {
+    position: relative;
+    width: 100%;
     bottom: 0;
     left: 0;
-    position: static;
-    width: 100%;
     background-color: black;
     color: white;
     box-shadow: 0px 0px 6px rgb(0, 0, 0); 
     height: auto;
+    font-family: 'exo', sans-serif;
 }
 
 .footer-content {
@@ -57,12 +58,12 @@
 }
 
 h3 {
-    margin-bottom: 10px;
     font-family: 'exo ', sans-serif;
+    font-size: x-large;
 }
 
 p {
-    margin: 0;
     font-family: 'exo ', sans-serif;
+    font-size: large;
 }
 </style>

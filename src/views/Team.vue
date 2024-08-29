@@ -1,6 +1,14 @@
 <template>
     <div class="team">
-        <h1>Our Team</h1>
+        <h1>Meet the Team</h1>
+        <hr class="separator">
+        <div class="lead">
+            <div class="member">
+                <img src="../assets/images/team/stock.jpg" alt="Member 1">
+                <h2>Aiden Brion</h2>
+                <p>President</p>
+            </div>
+        </div>
         <div class="row">
             <div class="member">
                 <img src="../assets/images/team/stock.jpg" alt="Member 1">
@@ -11,7 +19,7 @@
             <div class="member">
                 <img src="../assets/images/team/stock.jpg" alt="Member 2">
                 <h2>Joel Ringelstetter Jr</h2>
-                <p>"AI Web Expert" according to Aiden</p>
+                <p>Lead Web Developer</p>
             </div>
         </div>
     </div>
@@ -47,5 +55,28 @@ img {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
+}
+.lead {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1 {
+    font-family: 'exo ', sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 3rem;
+}
+h2 {
+    font-family: 'exo ', sans-serif;
+    font-weight: 600;
+}
+
+.separator {
+    width: 75%;
+    height: 2px;
+    background-color: #9b9494; /* Adjust color as needed */
+    margin: 1rem auto; /* Centers the line and adds spacing */
+    border: none;
 }
 </style>
