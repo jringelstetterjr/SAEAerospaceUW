@@ -9,13 +9,36 @@
                 <p>President</p>
             </div>
         </div>
+        <hr class="separator">
         <div class="row">
             <div class="member">
                 <img src="../assets/images/team/stock.jpg" alt="Member 1">
                 <h2>Benny Kitchel</h2>
                 <p>Just a really cool dude tbh</p>
             </div>
-
+            <div class="member">
+                <img src="../assets/images/team/stock.jpg" alt="Member 2">
+                <h2>Joel Ringelstetter Jr</h2>
+                <p>Lead Web Developer</p>
+            </div>
+            <div class="member">
+                <img src="../assets/images/team/stock.jpg" alt="Member 2">
+                <h2>Joel Ringelstetter Jr</h2>
+                <p>Lead Web Developer</p>
+            </div>
+        </div>
+        <hr class="separator">
+        <div class="row">
+            <div class="member">
+                <img src="../assets/images/team/stock.jpg" alt="Member 1">
+                <h2>Benny Kitchel</h2>
+                <p>Just a really cool dude tbh</p>
+            </div>
+            <div class="member">
+                <img src="../assets/images/team/stock.jpg" alt="Member 2">
+                <h2>Joel Ringelstetter Jr</h2>
+                <p>Lead Web Developer</p>
+            </div>
             <div class="member">
                 <img src="../assets/images/team/stock.jpg" alt="Member 2">
                 <h2>Joel Ringelstetter Jr</h2>
@@ -50,11 +73,12 @@
 
 }
 img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
+    padding: 1rem;
 }
 .lead {
     display: flex;

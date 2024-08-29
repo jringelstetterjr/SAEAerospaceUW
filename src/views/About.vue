@@ -44,7 +44,7 @@ p {
   font-weight: 200;
 }
 h1 {
-  font-weight: 200;
+  font-weight: 600;
   font-family: 'exo ', sans-serif;
 }
 
