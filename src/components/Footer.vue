@@ -58,11 +58,11 @@
 
 h3 {
     margin-bottom: 10px;
-    font-family: 'rajdhani', sans-serif;
+    font-family: 'exo ', sans-serif;
 }
 
 p {
     margin: 0;
-    font-family: 'rajdhani', sans-serif;
+    font-family: 'exo ', sans-serif;
 }
 </style>

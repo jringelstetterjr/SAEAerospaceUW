@@ -23,11 +23,11 @@
     flex: 1;
   }
   h1 {
-    font-family: 'rajdhani', sans-serif;
+    font-family: 'exo ', sans-serif;
     font-weight: 600;
   }
   p {
-    font-family: 'rajdhani', sans-serif;
+    font-family: 'exo ', sans-serif;
     font-size: 1.4rem;
     line-height: 1.4;
     font-weight: 450;

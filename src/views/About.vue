@@ -38,19 +38,21 @@ export default {
   flex: 1;
 }
 p {
-  font-family: 'rajdhani', sans-serif;
+  font-family: 'exo ', sans-serif;
   font-size: 1.6rem;
   line-height: 1.4;
-  font-weight: 450;
+  font-weight: 200;
 }
 h1 {
-  font-family: 'rajdhani', sans-serif;
-  font-weight: 600;
+  font-weight: 200;
+  font-family: 'exo ', sans-serif;
 }
+
 h2 {
-  font-family: 'rajdhani', sans-serif;
+  font-family: 'exo ', sans-serif;
   font-weight: 600;
   margin-top: 2rem;
+  font-weight: 200;
 }
 
 .image-flex {

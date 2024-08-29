@@ -8,6 +8,7 @@
           </li>
           <li><router-link to="/">Home</router-link></li>
           <li><router-link to="/about">About</router-link></li>
+          <li><router-link to="/team">Team</router-link></li>
           <!-- Add more links as needed -->
         </ul>
       </nav>
@@ -50,7 +51,7 @@ nav ul {
 
 nav ul li {
   display: inline-flex;
-  font-family: 'rajdhani', serif;
+  font-family: 'exo ', serif;
   font-style: italic;
   font-size: 1.4rem;
 }

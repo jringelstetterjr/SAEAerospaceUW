@@ -4,11 +4,13 @@ import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './views/Home.vue'
 import About from './views/About.vue'
-import '@fontsource/rajdhani'; // Defaults to weight 400
+import Team from './views/Team.vue'
+import '@fontsource/exo'; // Defaults to weight 400
 
 const routes = [
     { path: '/', component: Home },
     { path: '/about', component: About },
+    { path: '/team', component: Team }
 ];
 
 const router = createRouter({
