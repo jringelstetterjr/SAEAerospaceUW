@@ -1,68 +1,72 @@
 <template>
-    <footer class="footer">
+    <div class="footer">
         <div class="footer-content">
             <div class="contact-us">
-                <h3>Contact Us</h3>
-                <p>Email: example@example.com</p>
-            </div>
-            <div class="logos">
-                <!-- Add your logos here -->
+                <p>Email: acbrion@wisc.edu</p>
             </div>
             <div class="social-links">
-                <!-- Add your social links here -->
+                <a href="https://www.linkedin.com/company/sae-aero-uw" target="_blank">
+                    <i class="pi pi-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/saeaerouw/" target="_blank">
+                    <i class="pi pi-instagram"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <img src="../assets/logo.jpeg" alt="UW-Madison SAE Club Logo" class="img"/>
             </div>
         </div>
-    </footer>
+    </div>
 </template>
 
 <script>
-  export default {
+import 'primeicons/primeicons.css';
+
+export default {
     name: 'Footer'
-  }
+}
 </script>
 
 <style scoped>
 .footer {
+    position: relative;
+    width: 100%;
     bottom: 0;
     left: 0;
-    position: static;
-    width: 100%;
     background-color: black;
     color: white;
     box-shadow: 0px 0px 6px rgb(0, 0, 0); 
     height: auto;
+    font-family: 'exo', sans-serif;
 }
 
 .footer-content {
-    display: flex;
-    justify-content: space-between;
+    display: flex;  /* Change inline-flex to flex */
+    justify-content: space-between; /* Distribute space evenly between the divs */
     align-items: center;
-    padding: 20px;
+    padding: 0 2rem; /* Add padding to the sides if needed */
+    width: 100%; /* Ensure it takes the full width */
 }
 
-.contact-us {
-    flex: 1;
-}
-
-.logos {
-    flex: 1;
+.contact-us,
+.social-links,
+.logo {
+    flex: 1; /* Make each div take equal space */
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center the content within each div */
+    align-items: center; /* Center the content vertically */
 }
 
 .social-links {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
+    gap: 2rem; /* Add some space between the icons */
 }
 
-h3 {
-    margin-bottom: 10px;
-    font-family: 'exo ', sans-serif;
+.logo img {
+    height: 80px; /* Adjust as needed */
 }
 
-p {
-    margin: 0;
-    font-family: 'exo ', sans-serif;
+.pi {
+    font-size: 2rem;
+    color: white;
 }
 </style>
