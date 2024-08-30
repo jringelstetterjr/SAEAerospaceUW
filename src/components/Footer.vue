@@ -2,20 +2,26 @@
     <div class="footer">
         <div class="footer-content">
             <div class="contact-us">
-                <h3>Contact Us</h3>
                 <p>Email: acbrion@wisc.edu</p>
             </div>
-            <div class="logos">
-                <!-- Add your logos here -->
-            </div>
             <div class="social-links">
-                <!-- Add your social links here -->
+                <a href="https://www.instagram.com/saeaerouw/" target="_blank">
+                    <i class="pi pi-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/sae-aero-uw" target="_blank">
+                    <i class="pi pi-linkedin"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <img src="../assets/logo.jpeg" alt="UW-Madison SAE Club Logo" class="logo"/>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+import 'primeicons/primeicons.css';
+
   export default {
     name: 'Footer'
   }
@@ -45,16 +51,16 @@
     flex: 1;
 }
 
-.logos {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+.logo {
+  height: 80px; /* Adjust as needed */
+  margin-right: 1rem; /* Space between logo and first link */
+  display: flex;
 }
 
 .social-links {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 
 h3 {
@@ -65,5 +71,9 @@ h3 {
 p {
     font-family: 'exo ', sans-serif;
     font-size: large;
+}
+.pi {
+    font-size: 2rem;
+    color: white
 }
 </style>
