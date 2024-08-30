@@ -5,15 +5,15 @@
                 <p>Email: acbrion@wisc.edu</p>
             </div>
             <div class="social-links">
-                <a href="https://www.instagram.com/saeaerouw/" target="_blank">
-                    <i class="pi pi-instagram"></i>
-                </a>
                 <a href="https://www.linkedin.com/company/sae-aero-uw" target="_blank">
                     <i class="pi pi-linkedin"></i>
                 </a>
+                <a href="https://www.instagram.com/saeaerouw/" target="_blank">
+                    <i class="pi pi-instagram"></i>
+                </a>
             </div>
             <div class="logo">
-                <img src="../assets/logo.jpeg" alt="UW-Madison SAE Club Logo" class="logo"/>
+                <img src="../assets/logo.jpeg" alt="UW-Madison SAE Club Logo" class="img"/>
             </div>
         </div>
     </div>
@@ -22,9 +22,9 @@
 <script>
 import 'primeicons/primeicons.css';
 
-  export default {
+export default {
     name: 'Footer'
-  }
+}
 </script>
 
 <style scoped>
@@ -41,39 +41,32 @@ import 'primeicons/primeicons.css';
 }
 
 .footer-content {
-    display: flex;
-    justify-content: space-between;
+    display: flex;  /* Change inline-flex to flex */
+    justify-content: space-between; /* Distribute space evenly between the divs */
     align-items: center;
-    padding: 20px;
+    padding: 0 2rem; /* Add padding to the sides if needed */
+    width: 100%; /* Ensure it takes the full width */
 }
 
-.contact-us {
-    flex: 1;
-}
-
+.contact-us,
+.social-links,
 .logo {
-  height: 80px; /* Adjust as needed */
-  margin-right: 1rem; /* Space between logo and first link */
-  display: flex;
+    flex: 1; /* Make each div take equal space */
+    display: flex;
+    justify-content: center; /* Center the content within each div */
+    align-items: center; /* Center the content vertically */
 }
 
 .social-links {
-    flex: 1;
-    display: flex;
-    justify-content: space-evenly;
+    gap: 2rem; /* Add some space between the icons */
 }
 
-h3 {
-    font-family: 'exo ', sans-serif;
-    font-size: x-large;
+.logo img {
+    height: 80px; /* Adjust as needed */
 }
 
-p {
-    font-family: 'exo ', sans-serif;
-    font-size: large;
-}
 .pi {
     font-size: 2rem;
-    color: white
+    color: white;
 }
 </style>

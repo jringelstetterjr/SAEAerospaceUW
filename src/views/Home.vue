@@ -1,7 +1,7 @@
 <!-- src/views/Home.vue -->
 <template>
     <div class="home">
-      <h1>SAE Aero UW</h1>
+      <h1>SAE Aero UW Est. 2024</h1>
       <p>Every year, we apply knowledge from our engineering courses at UW-Madison to build an RC style airplane.</p>
       <hr>  
       <div class="image-flex">

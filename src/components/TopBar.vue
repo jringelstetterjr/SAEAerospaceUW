@@ -3,7 +3,7 @@
     <header class="top-bar">
       <nav>
         <ul>
-          <li>
+          <li class="logo-container">
             <router-link to="/"><img src="../assets/logo.jpeg" alt="UW-Madison SAE Club Logo" class="logo"/></router-link>
           </li>
           <li><router-link to="/">Home</router-link></li>
@@ -26,7 +26,6 @@
   .top-bar {
     position: fixed;
     background-color: #c5050c;
-    padding: 1rem;
     color: white;
     display: flex;
     align-items: center;
@@ -36,6 +35,7 @@
     left: 0;
     z-index: 1000; 
     width: 100%;
+    height: 85px;
     align-self: center;
     flex-shrink: 0;
 }
@@ -68,8 +68,14 @@ nav ul li a:hover {
 }
 
 .logo {
-  height: 70px; /* Adjust as needed */
+  height: 90px; /* Adjust as needed */
   margin-right: 1rem; /* Space between logo and first link */
+}
+
+.logo-container {
+  height: 90px;
+  display: flex;
+  align-items: center;
 }
   </style>
   
