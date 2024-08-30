@@ -29,4 +29,7 @@ export default {
     display: grid;
     grid-template-rows: 1fr auto;
 }
+.content {
+  position: relative ;
+}
 </style>

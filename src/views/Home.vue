@@ -1,13 +1,25 @@
 <!-- src/views/Home.vue -->
 <template>
-    <div class="title">
-      <h1>UW Madison SAE Aerospace</h1>
-      <p>This is the home page content.</p>
+    <div class="home">
+      <h1>SAE Aero UW Est. 2024</h1>
+      <p>Every year, we apply knowledge from our engineering courses at UW-Madison to build an RC style airplane.</p>
+      <hr>  
+      <div class="image-flex">
+        <div class="image-item">
+          <img src="../assets/images/build1.jpeg" alt="Image 1">
+        </div>
+        <div class="image-item">
+          <img src="../assets/images/build2.jpeg" alt="Image 2">
+        </div>
+        <div class="image-item">
+          <img src="../assets/images/build6.jpeg" alt="Image 3">
+        </div>
     </div>
-    <div class="content">
-      
+    <div>
+      <h2>Our Mission</h2>
+      <p>When the time comes, we test everything we've worked for in California, at the SAE Aero Design Competition, competing against teams from around the world.</p>
     </div>
-    <hr class="separator"/>
+  </div>
   </template>
   
   <script>
@@ -34,6 +46,18 @@
     font-size: 55px;
     font-style: italic;
   }
+  h2 {
+    font-family: 'exo ', sans-serif;
+    font-weight: 600;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+  }
+  h2 {
+    font-family: 'exo ', sans-serif;
+    font-weight: 600;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+  }
   p {
     font-family: 'exo ', sans-serif;
     font-size: 1.4rem;
@@ -42,6 +66,25 @@
     justify-content: center;
     text-align: center;
   }
+
+  .image-flex {
+  display: flex;
+  justify-content: space-between; /* Distributes the columns evenly */
+  gap: 10px; /* Space between the images */
+  padding: 5px;
+}
+
+.image-item {
+  flex: 1; /* Makes each column take up equal space */
+  margin: 0 5px; /* Adds margin between the items */
+  box-shadow: 0px 0px 6px rgb(0, 0, 0); 
+}
+
+.image-item img {
+  width: 100%; /* Make the images responsive */
+  height: auto;
+  display: block;
+}
 
   </style>
   
