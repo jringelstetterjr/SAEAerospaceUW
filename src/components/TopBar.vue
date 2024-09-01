@@ -51,7 +51,7 @@ nav ul {
 
 nav ul li {
   display: inline-flex;
-  font-family: 'exo ', serif;
+  font-family: 'exo', serif;
   font-style: italic;
   font-size: 1.4rem;
 }

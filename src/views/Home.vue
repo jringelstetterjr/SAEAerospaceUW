@@ -1,36 +1,66 @@
-<!-- src/views/Home.vue -->
 <template>
-    <div class="home">
-      <h1>SAE Aero UW Est. 2024</h1>
-      <p>Every year, we apply knowledge from our engineering courses at UW-Madison to build an RC style airplane.</p>
-      <hr>  
-      <div class="image-flex">
+  <div class="home">
+    <h1>SAE Aero UW</h1>
+    <h2>Est. 2024</h2>
+    <p>
+      Every year, we apply knowledge from our engineering courses at UW-Madison
+      to build an RC style airplane.
+    </p>
+    <hr class="separator" />
+
+    <Carousel :value="images" :numVisible="1" :numScroll="1" orientation="vertical" verticalViewPortHeight="330px">
+      <template #item="{ item }">
         <div class="image-item">
-          <img src="../assets/images/build1.jpeg" alt="Image 1">
+          <img :src="item.src" :alt="item.alt" />
         </div>
-        <div class="image-item">
-          <img src="../assets/images/build2.jpeg" alt="Image 2">
-        </div>
-        <div class="image-item">
-          <img src="../assets/images/build6.jpeg" alt="Image 3">
-        </div>
-    </div>
+      </template>
+    </Carousel>
+
+    <hr class="separator" />
     <div>
-      <h2>Our Mission</h2>
-      <p>When the time comes, we test everything we've worked for in California, at the SAE Aero Design Competition, competing against teams from around the world.</p>
+      <p>
+        Come April, we'll test everything we've worked for in California, at the
+        SAE Aero Design Competition, competing against teams from around the
+        world.
+      </p>
     </div>
   </div>
-  </template>
+</template>
+
+<script>
+import Carousel from "primevue/carousel";
+import build1 from '../assets/images/build1.jpeg';
+import build2 from '../assets/images/build2.jpeg';
+import build6 from '../assets/images/build6.jpeg';
+
+export default {
+  name: "Home",
+  components: {
+    Carousel,
+  },
+  mounted() {
+  console.log(this.images);
+},
+  data() {
+    return {
+      images: [
+        { src: build1, alt: 'Image 1' },
+        { src: build2, alt: 'Image 2' },
+        { src: build6, alt: 'Image 3' },
+      ],
+    };
+  },
+};
+
+
+
+</script>
+
+
   
-  <script>
-  export default {
-    name: 'Home'
-  }
-  </script>
+  <style scoped>
   
-  <style>
-  
-  .title {
+  .home {
     padding: 2rem;
     margin-top: 5rem;
     overflow-y: auto;
@@ -40,26 +70,23 @@
     justify-content: center;
   }
   h1 {
-    font-family: 'exo ', sans-serif;
+    font-family: 'exo', sans-serif;
     font-weight: 600;
     text-align: center;
     font-size: 55px;
     font-style: italic;
+    margin: 0;
   }
   h2 {
-    font-family: 'exo ', sans-serif;
+    font-family: 'exo', sans-serif;
     font-weight: 600;
-    margin-top: 2rem;
     font-size: 1.7rem;
+    margin: 0;
+    text-align: center;
   }
-  h2 {
-    font-family: 'exo ', sans-serif;
-    font-weight: 600;
-    margin-top: 2rem;
-    font-size: 1.7rem;
-  }
+
   p {
-    font-family: 'exo ', sans-serif;
+    font-family: 'exo', sans-serif;
     font-size: 1.4rem;
     line-height: 1.4;
     font-weight: 450;
@@ -74,10 +101,10 @@
   padding: 5px;
 }
 
-.image-item {
-  flex: 1; /* Makes each column take up equal space */
-  margin: 0 5px; /* Adds margin between the items */
-  box-shadow: 0px 0px 6px rgb(0, 0, 0); 
+.image-item img {
+  width: 100%; /* Make the images responsive */
+  height: auto;
+  display: block;
 }
 
 .image-item img {
@@ -86,5 +113,12 @@
   display: block;
 }
 
+.separator {
+    width: 75%;
+    height: 2px;
+    background-color: #9b9494; /* Adjust color as needed */
+    margin: 1rem auto; /* Centers the line and adds spacing */
+    border: none;
+}
   </style>
   
