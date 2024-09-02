@@ -14,6 +14,8 @@
       :numScroll="1"
       orientation="horizontal"
       :responsiveOptions="responsiveOptions"
+      circular
+      autoplayInterval="4500"
       class="custom-carousel"
     >
       <template #item="{ data }">
@@ -26,9 +28,11 @@
     <hr class="separator" />
     <div>
       <p>
-        Come April, we'll test everything we've worked for in California, at the
+        When the time comes, we test everything we've worked for in California, at the
         SAE Aero Design Competition, competing against teams from around the
-        world.
+        world. We were only established in 2024, but we are already making headway 
+        on our plane and are excited to see where the future takes us. Come April, we'll compete, 
+        which will set the stage for continous improvement and innovation.
       </p>
     </div>
   </div>
