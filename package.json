@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
+    "postbuild": "node generate-sitemap.js",
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist"
   },
@@ -29,6 +30,8 @@
     "gh-pages": "^6.1.1",
     "typescript": "^5.5.3",
     "vite": "^5.4.1",
+    "vite-plugin-pages": "^0.32.3",
+    "vite-plugin-sitemap": "^0.7.1",
     "vue-tsc": "^2.0.29"
   }
 }
