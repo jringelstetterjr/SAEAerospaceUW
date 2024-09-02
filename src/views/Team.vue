@@ -114,6 +114,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    flex-wrap: nowrap;
 }
 
 .member {
@@ -123,7 +124,7 @@
     display: flex;
     gap: 6rem;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
 }
 img {
@@ -137,7 +138,7 @@ img {
 .lead {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 h1 {
     font-family: 'exo', sans-serif;
