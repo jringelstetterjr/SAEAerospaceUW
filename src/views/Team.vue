@@ -114,6 +114,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    flex-wrap: nowrap;
 }
 
 .member {
@@ -123,7 +124,7 @@
     display: flex;
     gap: 6rem;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
 }
 img {
@@ -137,17 +138,18 @@ img {
 .lead {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 h1 {
-    font-family: 'exo ', sans-serif;
+    font-family: 'exo', sans-serif;
     font-weight: bolder;
     font-style: oblique;
     font-size: 3rem;
 }
 h2 {
-    font-family: 'exo ', sans-serif;
+    font-family: 'exo', sans-serif;
     font-weight: 600;
+    line-height: 1;
 }
 
 .separator {
@@ -156,5 +158,12 @@ h2 {
     background-color: #9b9494; /* Adjust color as needed */
     margin: 1rem auto; /* Centers the line and adds spacing */
     border: none;
+}
+p {
+    font-family: 'exo', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.1;
+    font-weight: 200;
+    text-align: center;
 }
 </style>
