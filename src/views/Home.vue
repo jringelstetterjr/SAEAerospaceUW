@@ -15,7 +15,7 @@
       orientation="horizontal"
       :responsiveOptions="responsiveOptions"
       circular
-      autoplayInterval="4500"
+      autoplayInterval=4500
       class="custom-carousel"
     >
       <template #item="{ data }">
@@ -80,6 +80,7 @@ export default {
 </script>
 
 <style scoped>
+
 .home {
   padding: 2rem;
   margin-top: 5rem;
@@ -126,7 +127,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
 }
 
 .carousel-item img {
@@ -177,5 +178,12 @@ p {
 .custom-carousel .p-carousel-next-button:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 1rem;
+    margin-top: 10.5rem;
+  }
 }
 </style>
