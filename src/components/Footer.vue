@@ -2,7 +2,7 @@
     <div class="footer">
         <div class="footer-content">
             <div class="contact-us">
-                <p>Email: acbrion@wisc.edu</p>
+                <p>Contact Us: acbrion@wisc.edu</p>
             </div>
             <div class="social-links">
                 <a href="https://www.linkedin.com/company/sae-aero-uw" target="_blank">
@@ -68,5 +68,31 @@ export default {
 .pi {
     font-size: 2rem;
     color: white;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Adjust height for mobile */
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+  .footer-content {
+    flex-direction: column; /* Stack the divs vertically on mobile */
+    gap: 1rem; /* Add some space between the divs */
+  }
+
+  .logo {
+    height: 60px; /* Smaller logo on mobile */
+  }
+
+  .social-links {
+    gap: 1rem; /* Space between the icons */
+  }
+  p {
+    margin: 0;
+  }
 }
 </style>

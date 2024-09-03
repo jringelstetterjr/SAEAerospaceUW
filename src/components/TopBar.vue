@@ -6,10 +6,12 @@
           <li class="logo-container">
             <router-link to="/"><img src="../assets/logo.jpeg" alt="UW-Madison SAE Club Logo" class="logo"/></router-link>
           </li>
-          <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/about">About</router-link></li>
-          <li><router-link to="/team">Team</router-link></li>
-          <!-- Add more links as needed -->
+          <li class="nav-links">
+            <li><router-link to="/">Home</router-link></li>
+            <li><router-link to="/about">About</router-link></li>
+            <li><router-link to="/team">Team</router-link></li>
+            <li><router-link to="/sponsors">Sponsors</router-link></li>
+          </li>
         </ul>
       </nav>
     </header>
@@ -22,6 +24,8 @@
   </script>
   
   <style scoped>
+  /* Media Query for Mobile Devices */
+/* Media Query for Mobile Devices */
 
   .top-bar {
     position: fixed;
@@ -35,9 +39,8 @@
     left: 0;
     z-index: 1000; 
     width: 100%;
-    height: 85px;
     align-self: center;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 nav ul {
@@ -77,5 +80,55 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
 }
+.nav-links {
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Adjust height for mobile */
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    padding: 0;
+    margin: 0;
+    gap: 1rem; /* Space between items */
+    align-items: center;
+  }
+
+  .logo-container {
+    margin-bottom: 1px; /* Space below the logo */
+  }
+
+  .logo {
+    height: 60px; /* Smaller logo on mobile */
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row; /* Display navigation links side by side */
+    gap: 1rem; /* Space between links */
+  }
+
+  .nav-links a {
+    font-size: 1.2rem; /* Reduce font size for mobile */
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-links a:hover {
+    text-decoration: underline;
+    color: #000000; /* Black */
+  }
+}
+
+
   </style>
   

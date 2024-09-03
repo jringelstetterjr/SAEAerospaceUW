@@ -26,10 +26,17 @@ export default {
 #app {
     min-height: 100vh; 
     margin: 0; 
-    display: grid;
-    grid-template-rows: 1fr auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .content {
-  position: relative ;
+  position: relative;
+  flex: 1; /* Allow content to grow and fill available space */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content vertically */
+  width: 100%; /* Ensure content spans the full width */
 }
 </style>
