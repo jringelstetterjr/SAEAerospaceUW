@@ -62,6 +62,19 @@
                 <h2>TJ Weingart</h2>
                 <p>Build Sub Lead</p>
             </div>
+            <div class="member">
+                <img src="../assets/images/team/stott.jpeg" alt="Member 1">
+                <h2>Nick Stott</h2>
+                <p>Landing Gear Lead</p>
+            </div>
+        </div>
+        <hr class="separator">
+        <div class="row">
+            <div class="member">
+                <img src="../assets/images/team/nurse.jpeg" alt="Member 1">
+                <h2>Julias Nurse</h2>
+                <p>Modeling Team Lead</p>
+            </div>
             <!-- <div class="member">
                 <img src="../assets/images/team/stock.jpg" alt="Member 2">
                 <h2>Joel Ringelstetter Jr</h2>
@@ -140,16 +153,25 @@ p {
     .team {
         padding: 1rem;
         margin-top: 2rem;
+        padding-top: 6.5rem;
+    }
+    .lead {
+        flex-direction: row;
+        gap: 1rem;
     }
 
     .row {
-        flex-direction: column; /* Stack items vertically on mobile */
+        display: flex;
+        flex-direction: row; /* Stack items vertically on mobile */
+        flex-wrap: wrap;
         gap: 1rem; /* Reduce spacing between items */
     }
 
     .member img {
-        width: 150px; /* Smaller images for mobile */
-        height: 150px;
+        width: 130px; /* Smaller images for mobile */
+        height: 130px;
+        gap: 0.5rem;
+        justify-content: center;
     }
 
     h1 {
