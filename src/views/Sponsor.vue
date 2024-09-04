@@ -1,4 +1,5 @@
 <template>
+    <metainfo></metainfo>
     <div class="sponsor-page">
         <h1>Sponsors</h1>
         <div class="sponsor-grid">
@@ -16,6 +17,7 @@
 </template>
 
 <script>
+import { useMeta } from "vue-meta";
 import engineering from '../assets/images/sponsors/collegeofengineering.png';
 import me from '../assets/images/sponsors/depmechengineering.png';
 import glindustrial from '../assets/images/sponsors/glindustrial.png';
@@ -24,6 +26,14 @@ import wealthspire from '../assets/images/sponsors/wealthspire.jpg';
 import sponsorPacket from '../assets/sponsor-packet.pdf';
 
 export default {
+    setup() {
+    useMeta({
+      title: "Sponsors Page - SAE Aero UW",
+      meta: [
+        { name: "description", content: "A list of sponsors for SAE Aero UW and a downloadable packet for future sponsors." },  
+      ],
+    });
+  },
     data() {
         return {
             sponsors: [

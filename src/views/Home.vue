@@ -1,4 +1,6 @@
 <template>
+  <metainfo>
+  </metainfo>
   <div class="home">
     <h1>SAE Aero UW</h1>
     <h2>Est. 2024</h2>
@@ -37,6 +39,7 @@
 </template>
 
 <script>
+import { useMeta } from "vue-meta";
 import Carousel from "primevue/carousel";
 import build1 from '../assets/images/build1.jpeg';
 import build2 from '../assets/images/build2.jpeg';
@@ -46,6 +49,14 @@ import biggergroup from '../assets/images/events/biggergroup.jpeg';
 import smallgroup from '../assets/images/events/smallgroup.jpeg';
 
 export default {
+  setup() {
+    useMeta({
+      title: "Home Page - SAE Aero UW",
+      meta: [
+        { name: "description", content: "Every year, we apply knowledge from our engineering courses at UW-Madison to build an RC style airplane." },  
+      ],
+    });
+  },
   name: "Home",
   components: {
     Carousel,

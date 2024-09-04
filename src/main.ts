@@ -7,8 +7,7 @@ import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Team from './views/Team.vue'
 import '@fontsource/exo'; // Defaults to weight 400
-import Carousel from 'primevue/carousel';
-//import VueMeta from 'vue-meta';
+import { createMetaManager } from 'vue-meta';
 import Sponsor from './views/Sponsor.vue'
 
 
@@ -24,9 +23,9 @@ const router = createRouter({
     routes,
 });
 
-const app = createApp(App);
-app.use(PrimeVue);
-app.use(router);
-//app.use(VueMeta);
-app.component('Carousel', Carousel);
+const app = createApp(App)
+.use(PrimeVue)
+.use(router)
+.use(createMetaManager())
+
 app.mount('#app');

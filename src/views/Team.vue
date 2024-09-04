@@ -83,7 +83,18 @@
         </div>
     </div>
 </template>
-
+<script>
+export default {
+    setup() {
+        useMeta({
+        title: "Team Page - SAE Aero UW",
+        meta: [
+            { name: "description", content: "A list of team members currently participating in SAE Aero UW Madison." },  
+        ],
+        });
+    }
+}
+  </script>
 <style scoped>
 .team {
     padding: 2rem;

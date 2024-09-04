@@ -23,7 +23,15 @@
 
 <script>
 export default {
-  name: 'About'
+  name: 'About',
+  setup() {
+    useMeta({
+      title: "About Page - SAE Aero UW",
+      meta: [
+        { name: "description", content: "About what we do at SAE Aero UW. Come learn about what our club is all about!" },  
+      ],
+    });
+  },
 }
 </script>
 
