@@ -85,13 +85,18 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
+    max-height: 450px;
+    max-width: 600px;
+    box-sizing: border-box;
 }
 
 .sponsor-image {
-    width: 90%;
-    height: 90%;
     transition: transform 0.3s ease;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
 }
 
 .sponsor-item:hover .sponsor-image {
