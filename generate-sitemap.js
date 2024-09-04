@@ -3,7 +3,6 @@ import { dirname } from 'path';
 import fs from 'fs';
 import path from 'path';
 
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -11,6 +10,7 @@ const pages = [
   '/',
   '/about',
   '/team',
+  '/sponsors'
   // Add more routes here
 ];
 
@@ -20,10 +20,10 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     .map(
       (route) => `
   <url>
-    <loc>www.wisconsinaerospace.com${route}</loc>
+    <loc>https://www.wisconsinaerospace.com${route}</loc>
   </url>`
     )
-    .join('')}a
+    .join('')}
 </urlset>`;
 
 fs.writeFileSync(path.join(__dirname, 'dist', 'sitemap.xml'), sitemap);

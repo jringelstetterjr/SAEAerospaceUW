@@ -1,4 +1,5 @@
 <template>
+  <metainfo></metainfo>
   <div class="about">
     <h1>About Us</h1>
     <p>

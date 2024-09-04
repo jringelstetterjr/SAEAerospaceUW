@@ -1,4 +1,5 @@
 <template>
+    <metainfo></metainfo>
     <div class="team">
         <h1>Meet the Team</h1>
         <hr class="separator">
