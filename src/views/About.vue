@@ -18,8 +18,6 @@
         <img src="../assets/images/build6.jpeg" alt="Image 3">
       </div>
     </div>
-    <hr class="separator" />
-    <p>We were only founded in January of 24, so we don't have any results yet. Come April, check back and see how we did!</p>
   </div>
 </template>
 
