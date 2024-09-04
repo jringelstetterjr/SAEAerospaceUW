@@ -30,9 +30,7 @@
       <p>
         When the time comes, we test everything we've worked for in California, at the
         SAE Aero Design Competition, competing against teams from around the
-        world. We were established in 2024 and are making headway 
-        into this season's design. Come April, we'll compete, 
-        which will set the stage for continous improvement and innovation.
+        world. Join us in our journey to the skies!
       </p>
     </div>
   </div>
