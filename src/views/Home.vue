@@ -30,8 +30,8 @@
       <p>
         When the time comes, we test everything we've worked for in California, at the
         SAE Aero Design Competition, competing against teams from around the
-        world. We were only established in 2024, but we are already making headway 
-        on our plane and are excited to see where the future takes us. Come April, we'll compete, 
+        world. We were established in 2024 and are making headway 
+        into this season's design. Come April, we'll compete, 
         which will set the stage for continous improvement and innovation.
       </p>
     </div>
@@ -43,6 +43,9 @@ import Carousel from "primevue/carousel";
 import build1 from '../assets/images/build1.jpeg';
 import build2 from '../assets/images/build2.jpeg';
 import build6 from '../assets/images/build6.jpeg';
+import point5 from '../assets/images/events/point5group.jpeg';
+import biggergroup from '../assets/images/events/biggergroup.jpeg';
+import smallgroup from '../assets/images/events/smallgroup.jpeg';
 
 export default {
   name: "Home",
@@ -52,9 +55,12 @@ export default {
   data() {
     return {
       images: [
-        { src: build1, alt: 'Image 1' },
-        { src: build2, alt: 'Image 2' },
-        { src: build6, alt: 'Image 3' },
+        { src: smallgroup, alt: 'Small Group Photo from Club fair ' },
+        { src: build1, alt: 'Plane Image 1' },
+        { src: point5, alt: 'Large Group Club Fair Photo' },
+        { src: build2, alt: 'Plane Image 2' },
+        { src: biggergroup, alt: 'Large Group Club Fair Photo' },
+        { src: build6, alt: 'Plane Image 3' },
         // Add more images as needed
       ],
       responsiveOptions: [
@@ -127,7 +133,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: auto; /* Adjust as needed */
+  height: 650px; /* Adjust as needed */
+  width: auto;
 }
 
 .carousel-item img {

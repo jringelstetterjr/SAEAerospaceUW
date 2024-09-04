@@ -9,17 +9,15 @@
     <h2>Our Current Build</h2>
     <div class="image-flex">
       <div class="image-item">
-        <img src="../assets/images/build1.jpeg" alt="Image 1">
+        <img src="../assets/images/originalbuild1.jpeg" alt="Image 1">
       </div>
       <div class="image-item">
-        <img src="../assets/images/build2.jpeg" alt="Image 2">
+        <img src="../assets/images/originalbuild2.jpeg" alt="Image 2">
       </div>
       <div class="image-item">
-        <img src="../assets/images/build6.jpeg" alt="Image 3">
+        <img src="../assets/images/originalbuild6.jpeg" alt="Image 3">
       </div>
     </div>
-    <hr class="separator" />
-    <p>We were only founded in January of 24, so we don't have any results yet. Come April, check back and see how we did!</p>
   </div>
 </template>
 
