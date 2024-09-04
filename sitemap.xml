@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"><url><loc>https://wisconsinaerospace.com/</loc><lastmod>2024-09-04T19:58:28.949Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://www.wisconsinaerospace.com/</loc>
+  </url>
+  <url>
+    <loc>https://www.wisconsinaerospace.com/about</loc>
+  </url>
+  <url>
+    <loc>https://www.wisconsinaerospace.com/team</loc>
+  </url>
+  <url>
+    <loc>https://www.wisconsinaerospace.com/sponsors</loc>
+  </url>
+</urlset>
