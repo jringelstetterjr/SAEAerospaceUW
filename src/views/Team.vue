@@ -73,7 +73,7 @@
         <div class="row">
             <div class="member">
                 <img src="../assets/images/team/nurse.jpeg" alt="Member 1">
-                <h2>Julias Nurse</h2>
+                <h2>Julius Nurse</h2>
                 <p>Modeling Team Lead</p>
             </div>
             <!-- <div class="member">
