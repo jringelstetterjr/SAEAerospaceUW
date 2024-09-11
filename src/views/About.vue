@@ -19,6 +19,7 @@
         <img src="../assets/images/originalbuild6.jpeg" alt="Image 3">
       </div>
     </div>
+    <a href="https://www.sae.org/attend/student-events/about-aero-design">More Info on the Competition</a>
   </div>
 </template>
 
@@ -47,6 +48,7 @@ export default {
   min-height: 100vh;
   box-sizing: border-box;
   flex: 1;
+  text-align: center;
 }
 p {
   font-family: 'exo', sans-serif;
@@ -92,6 +94,17 @@ h2 {
   background-color: #9b9494; /* Adjust color as needed */
   margin: 1rem auto; /* Centers the line and adds spacing */
   border: none;
+}
+a {
+  text-align: center;
+  font-family: 'exo', sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 4rem;
+  line-height: 6rem;
+}
+a:hover {
+  color: #000000;
 }
 @media (max-width: 768px) {
   .image-flex {
