@@ -207,5 +207,8 @@ p {
     padding: 1rem;
     margin-top: 10.5rem;
   }
+  .custom-carousel .carousel-item {
+  height: 200px;
+}
 }
 </style>
