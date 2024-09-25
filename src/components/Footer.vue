@@ -2,7 +2,7 @@
     <div class="footer">
         <div class="footer-content">
             <div class="contact-us">
-                <p>Contact Us: acbrion@wisc.edu</p>
+                <p>Contact Us: <a href="mailto:acbrion@wisc.edu">acbrion@wisc.edu</a></p>
             </div>
             <div class="social-links">
                 <a href="https://www.linkedin.com/company/sae-aero-uw" target="_blank">
@@ -91,7 +91,7 @@ export default {
   .social-links {
     gap: 1rem; /* Space between the icons */
   }
-  p {
+  p, a {
     margin: 0;
   }
 }
