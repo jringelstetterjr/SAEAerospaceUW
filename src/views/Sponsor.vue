@@ -23,6 +23,7 @@ import me from '../assets/images/sponsors/depmechengineering.png';
 import glindustrial from '../assets/images/sponsors/glindustrial.png';
 import mwes from '../assets/images/sponsors/mwes.png';
 import wealthspire from '../assets/images/sponsors/wealthspire.jpg';
+import ians from '../assets/images/sponsors/ians.png';
 import sponsorPacket from '../assets/sponsor-packet.pdf';
 
 export default {
@@ -62,7 +63,11 @@ export default {
                     name: "Wealthspire Advisors",
                     image: wealthspire,
                 },
-                // Add more sponsors here
+                {
+                    id: 6,
+                    name: "Ian's Pizza",
+                    image: ians,
+                },
             ],
             sponsorPacket: sponsorPacket,
         };
