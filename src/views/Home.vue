@@ -47,6 +47,9 @@ import build6 from '../assets/images/build6.jpeg';
 import point5 from '../assets/images/events/point5group.jpeg';
 import biggergroup from '../assets/images/events/biggergroup.jpeg';
 import smallgroup from '../assets/images/events/smallgroup.jpeg';
+import buildcomp from '../assets/images/events/buildcomp.jpeg';
+import buildcomp1 from '../assets/images/events/buildcomp1.jpeg';
+import sexyplane from '../assets/images/events/sexyplane.jpeg';
 
 export default {
   setup() {
@@ -70,6 +73,9 @@ export default {
         { src: build2, alt: 'Plane Image 2' },
         { src: biggergroup, alt: 'Large Group Club Fair Photo' },
         { src: build6, alt: 'Plane Image 3' },
+        { src: buildcomp, alt: 'A photo of a recent build competition we held between teams' },
+        { src: buildcomp1, alt: 'A photo of a recent build competition we held between teams' },
+        { src: sexyplane, alt: 'Plane Image 4' },
         // Add more images as needed
       ],
       responsiveOptions: [
@@ -142,14 +148,14 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 650px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
   width: auto;
 }
 
 .carousel-item img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 .p-button-text.p-button-secondary {
   background-color: #007bff;
