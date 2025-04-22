@@ -50,6 +50,11 @@ import smallgroup from '../assets/images/events/smallgroup.jpeg';
 import buildcomp from '../assets/images/events/buildcomp.jpeg';
 import buildcomp1 from '../assets/images/events/buildcomp1.jpeg';
 import sexyplane from '../assets/images/events/sexyplane.jpeg';
+import finalplane from '../assets/images/final_plane.jpg';
+import finalplaneteam from '../assets/images/final_plane_team.jpg';
+import in_comp from '../assets/images/in_comp.jpg';
+import team_build from '../assets/images/team_build.jpg';
+import team_photo from '../assets/images/team_photo.jpg';
 
 export default {
   setup() {
@@ -76,6 +81,11 @@ export default {
         { src: buildcomp, alt: 'A photo of a recent build competition we held between teams' },
         { src: buildcomp1, alt: 'A photo of a recent build competition we held between teams' },
         { src: sexyplane, alt: 'Plane Image 4' },
+        { src: finalplane, alt: 'Final Plane Build' },
+        { src: finalplaneteam, alt: 'Team in Front of Final Plane Build' },
+        { src: in_comp, alt: 'Plane in comp' },
+        { src: team_build, alt: 'Team building plane' },
+        { src: team_photo, alt: 'Full team photo' },
         // Add more images as needed
       ],
       responsiveOptions: [
