@@ -87,6 +87,7 @@ h2 {
   width: 100%; /* Make the images responsive */
   height: auto;
   display: block;
+  object-fit: contain;
 }
 .separator {
   width: 75%;

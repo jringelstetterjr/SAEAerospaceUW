@@ -6,9 +6,10 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Team from './views/Team.vue'
-import '@fontsource/exo'; // Defaults to weight 400
+import '@fontsource/exo';
 import { createMetaManager } from 'vue-meta';
 import Sponsor from './views/Sponsor.vue'
+import Calendar from './views/Calendar.vue';
 
 
 const routes = [
@@ -16,6 +17,7 @@ const routes = [
     { path: '/about', component: About },
     { path: '/team', component: Team },
     { path: '/sponsors', component: Sponsor },
+    { path: '/calendar', component: Calendar },
 ];
 
 const router = createRouter({

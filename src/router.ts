@@ -13,6 +13,21 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About
+  },
+  {
+    path: '/team',
+    name: 'Team',
+    component: Team
+  },
+  {
+    path: '/sponsors',
+    name: 'Sponsors',
+    component: Sponsor
+  },
+  {
+    path: '/calendar',
+    name: 'Calendar',
+    component: Calendar
   }
 ];
 

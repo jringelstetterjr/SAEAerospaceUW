@@ -110,7 +110,8 @@ export default {
         });
     }
 }
-  </script>
+</script>
+
 <style scoped>
 .team {
     padding: 2rem;
@@ -124,10 +125,6 @@ export default {
     align-items: center;
     text-align: center;
     flex-wrap: nowrap;
-}
-
-.member {
-    /* Add styling for each member section */
 }
 .row {
     display: flex;
