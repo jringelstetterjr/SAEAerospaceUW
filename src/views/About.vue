@@ -10,13 +10,13 @@
     <h2>Our Current Build</h2>
     <div class="image-flex">
       <div class="image-item">
-        <img src="../assets/images/originalbuild1.jpeg" alt="Image 1">
+        <img src="../assets/images/final_build_clean.jpg" alt="Image 1">
       </div>
       <div class="image-item">
-        <img src="../assets/images/originalbuild2.jpeg" alt="Image 2">
+        <img src="../assets/images/plane_preflight.jpg" alt="Image 2">
       </div>
       <div class="image-item">
-        <img src="../assets/images/originalbuild6.jpeg" alt="Image 3">
+        <img src="../assets/images/plane_flight_resized.jpg" alt="Image 3">
       </div>
     </div>
     <a href="https://www.sae.org/attend/student-events/about-aero-design">More Info on the Competition</a>

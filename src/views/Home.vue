@@ -41,15 +41,9 @@
 <script>
 import { useMeta } from "vue-meta";
 import Carousel from "primevue/carousel";
-import build1 from '../assets/images/build1.jpeg';
-import build2 from '../assets/images/build2.jpeg';
-import build6 from '../assets/images/build6.jpeg';
 import point5 from '../assets/images/events/point5group.jpeg';
 import biggergroup from '../assets/images/events/biggergroup.jpeg';
 import smallgroup from '../assets/images/events/smallgroup.jpeg';
-import buildcomp from '../assets/images/events/buildcomp.jpeg';
-import buildcomp1 from '../assets/images/events/buildcomp1.jpeg';
-import sexyplane from '../assets/images/events/sexyplane.jpeg';
 import finalplane from '../assets/images/final_plane.jpg';
 import finalplaneteam from '../assets/images/final_plane_team.jpg';
 import in_comp from '../assets/images/in_comp.jpg';
@@ -73,14 +67,8 @@ export default {
     return {
       images: [
         { src: smallgroup, alt: 'Small Group Photo from Club fair ' },
-        { src: build1, alt: 'Plane Image 1' },
         { src: point5, alt: 'Large Group Club Fair Photo' },
-        { src: build2, alt: 'Plane Image 2' },
         { src: biggergroup, alt: 'Large Group Club Fair Photo' },
-        { src: build6, alt: 'Plane Image 3' },
-        { src: buildcomp, alt: 'A photo of a recent build competition we held between teams' },
-        { src: buildcomp1, alt: 'A photo of a recent build competition we held between teams' },
-        { src: sexyplane, alt: 'Plane Image 4' },
         { src: finalplane, alt: 'Final Plane Build' },
         { src: finalplaneteam, alt: 'Team in Front of Final Plane Build' },
         { src: in_comp, alt: 'Plane in comp' },
