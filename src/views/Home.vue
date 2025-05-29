@@ -66,14 +66,14 @@ export default {
   data() {
     return {
       images: [
+        { src: in_comp, alt: 'Plane in comp' },
+        { src: finalplaneteam, alt: 'Team in Front of Final Plane Build' },
+        { src: finalplane, alt: 'Final Plane Build' },
+        { src: team_build, alt: 'Team building plane' },
+        { src: team_photo, alt: 'Full team photo' },
         { src: smallgroup, alt: 'Small Group Photo from Club fair ' },
         { src: point5, alt: 'Large Group Club Fair Photo' },
         { src: biggergroup, alt: 'Large Group Club Fair Photo' },
-        { src: finalplane, alt: 'Final Plane Build' },
-        { src: finalplaneteam, alt: 'Team in Front of Final Plane Build' },
-        { src: in_comp, alt: 'Plane in comp' },
-        { src: team_build, alt: 'Team building plane' },
-        { src: team_photo, alt: 'Full team photo' },
         // Add more images as needed
       ],
       responsiveOptions: [
